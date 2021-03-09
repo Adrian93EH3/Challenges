@@ -4,7 +4,8 @@ function reverseString(str) {
     // and returns the new array.
     // If an empty string ("") is used as the separator, the string is split between each character.
     var array = str.split(""); // puts line 7 into an array
-    return array;
+    var reverseArray = array.reverse();
+    console.log(reverseArray); // returns ["o", "l", "l", "e", "h"]
   }
   
   console.log(reverseString("hello")); // 
