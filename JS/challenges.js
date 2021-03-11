@@ -25,3 +25,6 @@ function reverseString(str) {
   console.log(reverseString("hello")); // olleh
 // END OF REVERSE STRING //
   console.log("------------------");
+// FACTORIALIZE THE NUMBER //
+// Return the factorial of the provided integer. If the integer is represented with the letter n, a factorial
+// is the product of all positive integers less than or equal to n.
