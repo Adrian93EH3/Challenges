@@ -30,9 +30,9 @@ function reverseString(str) {
 // is the product of all positive integers less than or equal to n.
 
 function factorialize(num) {
-  for (var i=1; i<=5; i++) {
-    
+  for (var i=1; i<=num; i++) {
+
   }
   return num;
-  }
+}
 factorialize(5);
