@@ -1,8 +1,8 @@
 // REVERSE STRING //
-function reverseString(str) {
 // Reverse the provided string. You may need to turn the string into an array before you can reverse it.
 // Your result must be a string.
 
+function reverseString(str) {
     // FIRST WAY OF DOING THE CHALLENGE //
     // //The split() method is used to split a string into an array of substrings,
     // // and returns the new array.
@@ -28,3 +28,9 @@ function reverseString(str) {
 // FACTORIALIZE THE NUMBER //
 // Return the factorial of the provided integer. If the integer is represented with the letter n, a factorial
 // is the product of all positive integers less than or equal to n.
+
+function factorialize(num) {
+  
+  return num;
+  }
+factorialize(5);
