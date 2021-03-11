@@ -28,7 +28,8 @@ function reverseString(str) {
 // FACTORIALIZE THE NUMBER //
 // Return the factorial of the provided integer. If the integer is represented with the letter n, a factorial
 // is the product of all positive integers less than or equal to n.
-
+    
+    // FIRST SOLUTION //
 function factorialize(num) {
   var result = 1;
   for (var i=1; i<=num; i++) {
@@ -36,4 +37,6 @@ function factorialize(num) {
   }
   return result;
 }
+    // END OF FIRST SOLUTION //
+
 console.log(factorialize(5));
