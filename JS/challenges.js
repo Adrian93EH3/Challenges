@@ -1,4 +1,4 @@
-// REVERSE STRING #1
+// REVERSE STRING //
 function reverseString(str) {
     // FIRST WAY OF DOING THE CHALLENGE //
     // //The split() method is used to split a string into an array of substrings,
@@ -20,4 +20,5 @@ function reverseString(str) {
   }
   
   console.log(reverseString("hello")); // olleh
+// END OF REVERSE STRING //
   console.log("------------------");
