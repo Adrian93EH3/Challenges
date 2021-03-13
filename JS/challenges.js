@@ -47,4 +47,5 @@ function reverseString(str) {
           }
       }
     // END OF SECOND SOLUTION //
-console.log(factorialize(5));
+  console.log(factorialize(5));
+  console.log("------------------");
