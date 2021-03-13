@@ -38,5 +38,6 @@ function factorialize(num) {
   return result;
 }
     // END OF FIRST SOLUTION //
-
+    // SECOND SOLUTION //
+    // END OF SECOND SOLUTION //
 console.log(factorialize(5));
