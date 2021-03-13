@@ -40,7 +40,11 @@ function reverseString(str) {
     // END OF FIRST SOLUTION //
     // SECOND SOLUTION //
     function factorialize(num) {
-      
+      if(num === 1) {
+        return num;
+        } else {
+          return num * factorialize(num - 1);
+          }
       }
     // END OF SECOND SOLUTION //
 console.log(factorialize(5));
