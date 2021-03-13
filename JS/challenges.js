@@ -39,5 +39,8 @@ function reverseString(str) {
 // }
     // END OF FIRST SOLUTION //
     // SECOND SOLUTION //
+    function factorialize(num) {
+      
+      }
     // END OF SECOND SOLUTION //
 console.log(factorialize(5));
