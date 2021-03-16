@@ -33,6 +33,9 @@ function reverseString(str) {
 // function factorialize(num) {
 //   var result = 1;
 //   for (var i=1; i<=num; i++) {
+     // Result is equal to 1, so when the below logic is fired off it continuosly increments i and multiplies it by 1 until
+     // it reaches the value of the num param. For this example, the num param has a value of 5, so the for loops increments
+     // i until it reaches 5 while simultaneously multiplying it by result. So it'll do 5*1,5*2, 5*3, 5*4, 5*5. Which equals 120.
 //   result = result * i;
 //   }
 //   return result;
