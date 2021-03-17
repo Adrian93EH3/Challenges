@@ -53,11 +53,14 @@ function reverseString(str) {
   console.log(factorialize(5));
   console.log("------------------");
   // CHECK IF PALINDROME //
-  // A palindrome is a word or sentence that's spelled the same way both forward and backward, ignorign punctuation, case, and spacing.
+  // A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
   // You'll need to remove all non-aplhanumeric characters and turn everything lower case in order to check for palindromes.
 
   function palindrome(str) {
+    // Similar to the first challenge when it comes to check the reverse part
 
+    var reverse = str.split("").reverse().join("");
+    console.log(reverse);
     return true;
   }
 
