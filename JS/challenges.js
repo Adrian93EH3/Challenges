@@ -57,8 +57,8 @@ function reverseString(str) {
   // You'll need to remove all non-aplhanumeric characters and turn everything lower case in order to check for palindromes.
 
   function palindrome(str2) {
-    // Similar to the first challenge when it comes to checking the reverse part
-
+    // Similar to the first challenge when it comes to checking the reverse part.
+    // This works, but doesn't pass the test case. I need it to ignore spacing, punctuation and casing.
     var reverse = str2.split("").reverse().join("");
     console.log(reverse === str2)
   }
