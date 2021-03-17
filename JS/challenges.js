@@ -60,6 +60,9 @@ function reverseString(str) {
     // Similar to the first challenge when it comes to checking the reverse part.
     // This works, but doesn't pass the test case. I need it to ignore spacing, punctuation and casing.
     var reverse = str2.split("").reverse().join("");
-    console.log(reverse === str2)
+    // Using RegexOne for the non-alphanumeric testing
+    var regexone = /[\W_]/g;
+   
+    console.log(reverse === str2);
   }
   palindrome("eye");
