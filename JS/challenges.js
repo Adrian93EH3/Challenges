@@ -57,12 +57,13 @@ function reverseString(str) {
   // You'll need to remove all non-aplhanumeric characters and turn everything lower case in order to check for palindromes.
 
   function palindrome(str2) {
-    // Similar to the first challenge when it comes to checking the reverse part.
-    // This works, but doesn't pass the test case. I need it to ignore spacing, punctuation and casing.
-    var reverse = str2.split("").reverse().join("");
     // Using RegexOne for the non-alphanumeric testing
     var regexone = /[\W_]/g;
-   
-    console.log(reverse === str2);
+    // Match all the non-alphanumeric characters with nothing, aka remove them and put the str to lowercase as well
+    var lowercase = str2.toLowerCase().replace(regexone, "");
+    // Similar to the first challenge when it comes to checking the reverse part.
+    // This works, but doesn't pass the test case. I need it to ignore spacing, punctuation and casing.
+    var reverse = lowercase.split("").reverse().join("");
+    console.log(reverse === lowercase);
   }
-  palindrome("eye");
+  palindrome("A man, a plan, a canal. Panama");
