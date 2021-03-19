@@ -75,11 +75,15 @@ function findLongestWord(str) {
   var words = str.split(" ");
   // Empty string so I may store the longest word
   var longest = "";
-  // Goes over the indexes of the array and returns the elements
+  // Goes over the indexes of the array and returns the elements while setting the way to reference it as ' word '
   for (var word of words) {
-
+    // Checks if the length of each word is greater than the word before it while simultaneously making the variable of ' longest ' equal to that word.
+    if (word.length > longest.length){
+      longest = word;
+    }
+    }
     console.log(longest);
   }
-}
 
-findLongestWord("Which of these words is the longest");
+
+findLongestWord("The cow jumped over the moon and landed on Mars");
