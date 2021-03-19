@@ -69,3 +69,10 @@ function reverseString(str) {
   palindrome("A man, a plan, a canal. Panama");
   // FIND THE LONGEST WORD //
   // Return the length of the longest word in the param. Your response should be a number.
+  
+  function findLongestWord(str) {
+
+    return str.length;
+  }
+
+  findLongestWord("Which of these words is the longest");
