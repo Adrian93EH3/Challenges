@@ -71,6 +71,8 @@ function reverseString(str) {
   // Return the length of the longest word in the param. Your response should be a number.
   
   function findLongestWord(str) {
+    var words = str.split(" ");
+    
 
     return str.length;
   }
