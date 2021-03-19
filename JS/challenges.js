@@ -73,7 +73,8 @@ palindrome("A man, a plan, a canal. Panama");
 function findLongestWord(str) {
   // Split the string into an array
   var words = str.split(" ");
-
+  // Empty string so I may store the longest word
+  var longest = "";
   // Goes over the indexes of the array and returns the elements
   for (var word of words) {
 
