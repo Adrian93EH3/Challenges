@@ -87,3 +87,6 @@ function findLongestWord(str) {
 
 
 findLongestWord("The cow jumped over the moon and landed on Mars");
+// TITLECASE //
+// Return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.
+// For the purpose of this exercise, connecting words like 'the' and 'of' should also have the first letters capitalized.
