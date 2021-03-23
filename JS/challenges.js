@@ -101,7 +101,7 @@ function titleCase(str4) {
     // So as the loop fires, 0 will be each value it loops through. Then the ' .toUpperCase ' method makes the first letter of each element capitalized.
     // The last bit of the code attaches the rest of the element to the first letter.
     // I understand this may be a bit confusing, so please refer to the examples I'll leave below.
-    words[i] = words[i][0].toUpperCase + words[i].slice(1);
+    words[i] = words[i][0].toUpperCase() + words[i].slice(1);
   }
 }
 
