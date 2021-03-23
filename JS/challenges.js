@@ -92,7 +92,7 @@ findLongestWord("The cow jumped over the moon and landed on Mars");
 // For the purpose of this exercise, connecting words like 'the' and 'of' should also have the first letters capitalized.
 function titleCase(str4) {
   // Separate the string into individual words, also lowercasing it so I can later choose which to capitalize.
-  var words = str.toLowerCase().split(" ");
+  var words = str4.toLowerCase().split(" ");
 
   for (var i=0; i<words.length; i++) {
     // Attack the array of words, to the value of i since it constantly changes in the loop. 
