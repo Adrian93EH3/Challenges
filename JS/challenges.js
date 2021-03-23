@@ -70,9 +70,9 @@ palindrome("A man, a plan, a canal. Panama");
 // FIND THE LONGEST WORD //
 // Return the length of the longest word in the param. Your response should be a number.
 
-function findLongestWord(str) {
+function findLongestWord(str3) {
   // Split the string into an array
-  var words = str.split(" ");
+  var words = str3.split(" ");
   // Empty string so I may store the longest word
   var longest = "";
   // Goes over the indexes of the array and returns the elements while setting the way to reference it as ' word '
@@ -90,3 +90,8 @@ findLongestWord("The cow jumped over the moon and landed on Mars");
 // TITLECASE //
 // Return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.
 // For the purpose of this exercise, connecting words like 'the' and 'of' should also have the first letters capitalized.
+function titleCase(str4) {
+  
+}
+
+titleCase("United states of america");
