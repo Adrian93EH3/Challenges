@@ -101,6 +101,8 @@ function titleCase(str4) {
     // So as the loop fires, 0 will be each value it loops through. Then the ' .toUpperCase ' method makes the first letter of each element capitalized.
     // The last bit of the code attaches the rest of the element to the first letter.
     // I understand this may be a bit confusing, so please refer to the examples I'll leave below.
+    // REFERENCE THE EXAMPLES TO MAKE THIS MAKE SENSE // 
+    // By adding the examples together and cycling through each index, we get the challenge correct by finishing it with the ' .join ' method at the end.
     words[i] = words[i][0].toUpperCase() + words[i].slice(1);
   }
   // EXAMPLES //
@@ -109,7 +111,7 @@ function titleCase(str4) {
   var name = "Adrian";
   console.log(name.slice(1)) // it results in ' drian '
   // END OF EXAMPLES //
-  
+
   // Join the elements so it's not an array filled with a subset of strings, and instead is just one string.
   console.log(words.join(" "));
 }
