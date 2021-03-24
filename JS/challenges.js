@@ -84,6 +84,7 @@ function findLongestWord(str3) {
     }
     }
     console.log(longest);
+    console.log("------------------");
   }
 
 
