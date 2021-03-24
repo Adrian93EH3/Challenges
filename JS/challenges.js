@@ -65,6 +65,7 @@ function palindrome(str2) {
   // This works, but doesn't pass the test case. I need it to ignore spacing, punctuation and casing.
   var reverse = lowercase.split("").reverse().join("");
   console.log(reverse === lowercase);
+  console.log("------------------");
 }
 palindrome("A man, a plan, a canal. Panama");
 // FIND THE LONGEST WORD //
