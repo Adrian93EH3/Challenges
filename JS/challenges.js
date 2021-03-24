@@ -102,8 +102,11 @@ function titleCase(str4) {
     // The last bit of the code attaches the rest of the element to the first letter.
     // I understand this may be a bit confusing, so please refer to the examples I'll leave below.
     words[i] = words[i][0].toUpperCase() + words[i].slice(1);
+    // EXAMPLES //
+    var name = "Adrian";
+    console.log(name.slice(1)) // it gives ' drian '
   }
-  // Join the elements so it's not an array filled with a subset of strings, and instead is just one string
+  // Join the elements so it's not an array filled with a subset of strings, and instead is just one string.
   console.log(words.join(" "));
 }
 
