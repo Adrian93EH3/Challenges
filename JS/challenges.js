@@ -116,6 +116,7 @@ function titleCase(str4) {
 
   // Join the elements so it's not an array filled with a subset of strings, and instead is just one string.
   console.log(words.join(" "));
+  console.log("------------------");
 }
 
 titleCase("United states of america");
