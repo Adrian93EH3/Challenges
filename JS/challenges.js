@@ -124,6 +124,11 @@ titleCase("United states of america");
 // LARGEST NUMBER //
 // Return an array consisting of the largest number from each provided sub-array. For simplicity, the provided array will contain exactly 4 sub-arrays.
 function largestNumber(array) {
-  var largest = []; // to store the largest number of each array
+  var largest = []; // To store the largest number of each array
+  
+  // The line below loops through each element
+  for (var i=0; i<array.length; i++) {
+
+  }
 }
 largestNumber([[1, 2, 4, 3], [21, 20, 17, 25], [100, 500, 300, 400], [4444, 1111, 2222, 3333]]);
