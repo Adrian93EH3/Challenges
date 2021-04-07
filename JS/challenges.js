@@ -128,7 +128,11 @@ function largestNumber(array) {
   
   // The line below loops through each element
   for (var i=0; i<array.length; i++) {
-
+    console.log(array[i]); // prints out each element
+    // Nested loop that prints out each inner element by looping through each outer element
+    for (var ii=0; ii<array[i].length; ii++) {
+      console.log(array[i][ii]);
+    }
   }
 }
 largestNumber([[1, 2, 4, 3], [21, 20, 17, 25], [100, 500, 300, 400], [4444, 1111, 2222, 3333]]);
