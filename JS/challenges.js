@@ -132,6 +132,8 @@ function largestNumber(array) {
     // Nested loop that prints out each inner element by looping through each outer element
     for (var ii=0; ii<array[i].length; ii++) {
       console.log(array[i][ii]);
+      // Writing out a variable to easily access ' array[i][ii] ' without having to actually write it out each time
+      var currentElement = array[i][ii]; 
     }
   }
 }
