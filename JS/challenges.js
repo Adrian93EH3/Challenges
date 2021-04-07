@@ -138,9 +138,12 @@ function largestNumber(array) {
       var currentElement = array[i][ii];
       // Checks if ' currentElement ' is greater than or equal to ' firstInnerElement '
       if (currentElement >= firstInnerElement) {
-
+        // If the line above is true, it will then equal that to ' currentElement ' and checks the rest of the values to see what to continuously set it to.
+        // The loop will also end here
+        firstInnerElement = currentElement;
       }
     }
+    
   }
 }
 largestNumber([[1, 2, 4, 3], [21, 20, 17, 25], [100, 500, 300, 400], [4444, 1111, 2222, 3333]]);
