@@ -128,12 +128,14 @@ function largestNumber(array) {
   
   // The line below loops through each element
   for (var i=0; i<array.length; i++) {
+    // Every time the outer loop runs, the variable I declared will choose the first inner element of each element
+    var firstInnerElement = array[i][0];
     console.log(array[i]); // prints out each element
     // Nested loop that prints out each inner element by looping through each outer element
     for (var ii=0; ii<array[i].length; ii++) {
       console.log(array[i][ii]);
       // Writing out a variable to easily access ' array[i][ii] ' without having to actually write it out each time
-      var currentElement = array[i][ii]; 
+      var currentElement = array[i][ii];
     }
   }
 }
