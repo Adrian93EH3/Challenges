@@ -143,7 +143,8 @@ function largestNumber(array) {
         firstInnerElement = currentElement;
       }
     }
-    
+    // Pushing the results of the loops above into the empty array I created in the beginning
+    largest.push(firstInnerElement);
   }
 }
 largestNumber([[1, 2, 4, 3], [21, 20, 17, 25], [100, 500, 300, 400], [4444, 1111, 2222, 3333]]);
