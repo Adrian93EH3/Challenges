@@ -136,6 +136,10 @@ function largestNumber(array) {
       console.log(array[i][ii]);
       // Writing out a variable to easily access ' array[i][ii] ' without having to actually write it out each time
       var currentElement = array[i][ii];
+      // Checks if ' currentElement ' is greater than or equal to ' firstInnerElement '
+      if (currentElement >= firstInnerElement) {
+
+      }
     }
   }
 }
