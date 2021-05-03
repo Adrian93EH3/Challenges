@@ -160,3 +160,5 @@ function addition(num1, num2) {
 
 console.log(addition(-3, -6)); // Results in -9
 console.log("------------------");
+// INTEGER DIGITS COUNT //
+// Create a function that counts the integer's number of digits
