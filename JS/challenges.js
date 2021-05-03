@@ -97,19 +97,18 @@ function titleCase(str4) {
   var words = str4.toLowerCase().split(" ");
 
   for (var i=0; i<words.length; i++) {
-    // Attack the array of words, to the value of i since it constantly changes in the loop. 
-    // Then label the value of 0 attached to the ' words[i] ' because the 0 references the first value of each loop.
-    // For example, in this case the split is making the example string turn into an array of ['united', 'states', 'of', 'america'].
-    // So as the loop fires, 0 will be each value it loops through. Then the ' .toUpperCase ' method makes the first letter of each element capitalized.
-    // The last bit of the code attaches the rest of the element to the first letter.
-    // I understand this may be a bit confusing, so please refer to the examples I'll leave below.
-    // REFERENCE THE EXAMPLES TO MAKE THIS MAKE SENSE // 
-    // By adding the examples together and cycling through each index, we get the challenge correct by finishing it with the ' .join ' method at the end.
+    /* Attack the array of words, to the value of i since it constantly changes in the loop. 
+     Then label the value of 0 attached to the ' words[i] ' because the 0 references the first value of each loop.
+     For example, in this case the split is making the example string turn into an array of ['united', 'states', 'of', 'america'].
+     So as the loop fires, 0 will be each value it loops through. Then the ' .toUpperCase ' method makes the first letter of each element capitalized.
+     The last bit of the code attaches the rest of the element to the first letter.
+     I understand this may be a bit confusing, so please refer to the examples I'll leave below.
+     By adding the examples together and cycling through each index, we get the challenge correct by finishing it with the ' .join ' method at the end. */
     words[i] = words[i][0].toUpperCase() + words[i].slice(1);
   }
-  // // EXAMPLES //
+  // EXAMPLES //
   /* var names = ["adrian", "emily"];
-   console.log(names[0].toUpperCase()) // it results in ' ADRIAN '
+   console.log(names[0].toUpperCase()) // it results in ' A '
    var name = "Adrian";
    console.log(name.slice(1)) // it results in ' drian ' */
   // END OF EXAMPLES //
