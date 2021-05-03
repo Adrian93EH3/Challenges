@@ -147,5 +147,9 @@ function largestNumber(array) {
     largest.push(firstInnerElement);
   }
   console.log(largest);
+  console.log("------------------");
 }
 largestNumber([[1, 2, 4, 3], [21, 20, 17, 25], [100, 500, 300, 400], [4444, 1111, 2222, 3333]]);
+
+// RETURN THE SUM OF TWO NUMBERS //
+// Create a function that takes two numbers as arguments and returns their sum
