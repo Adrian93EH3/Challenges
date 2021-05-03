@@ -153,3 +153,9 @@ largestNumber([[1, 2, 4, 3], [21, 20, 17, 25], [100, 500, 300, 400], [4444, 1111
 
 // RETURN THE SUM OF TWO NUMBERS //
 // Create a function that takes two numbers as arguments and returns their sum
+function addition(num1, num2) {
+  var add = num1 + num2;
+  return add;
+}
+
+console.log(addition(-3, -6));
