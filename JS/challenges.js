@@ -158,4 +158,5 @@ function addition(num1, num2) {
   return add;
 }
 
-console.log(addition(-3, -6));
+console.log(addition(-3, -6)); // Results in -9
+console.log("------------------");
