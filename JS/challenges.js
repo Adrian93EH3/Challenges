@@ -162,3 +162,18 @@ console.log(addition(-3, -6)); // Results in -9
 console.log("------------------");
 // INTEGER DIGITS COUNT //
 // Create a function that counts the integer's number of digits
+function lengthOfInteger(count) {
+  if (count >= 0) {
+    return count.toString().length;
+  } else {
+    // This finds a loophole by subtracting one to the result of a negative number.
+    // The loophole is, -9 is technically 2 because it counts the dash, but the ' -1 ' makes it equal 1.
+    // Which is the literal amount of numbers in the integer. I could do some more fancy code to make it ignore symbols/special characters.
+    // But I decided to be efficient over fancy, not sure if that's the right call or not.
+    return count.toString().length - 1;
+  }
+}
+
+console.log(lengthOfInteger(-999)); // Returns 3
+console.log(lengthOfInteger(1999)); // Returns 4
+console.log("------------------");
