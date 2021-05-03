@@ -108,11 +108,11 @@ function titleCase(str4) {
     words[i] = words[i][0].toUpperCase() + words[i].slice(1);
   }
   // // EXAMPLES //
-  // var names = ["adrian", "emily"];
-  // console.log(names[0].toUpperCase()) // it results in ' ADRIAN '
-  // var name = "Adrian";
-  // console.log(name.slice(1)) // it results in ' drian '
-  // // END OF EXAMPLES //
+  /* var names = ["adrian", "emily"];
+   console.log(names[0].toUpperCase()) // it results in ' ADRIAN '
+   var name = "Adrian";
+   console.log(name.slice(1)) // it results in ' drian ' */
+  // END OF EXAMPLES //
 
   // Join the elements so it's not an array filled with a subset of strings, and instead is just one string.
   console.log(words.join(" "));
