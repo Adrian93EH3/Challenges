@@ -176,3 +176,13 @@ function lengthOfInteger(count) {
 console.log(lengthOfInteger(-999)); // Returns 3
 console.log(lengthOfInteger(1999)); // Returns 4
 console.log("------------------");
+
+// CONVERT MINUTES TO SECONDS //
+// Write a function that takes minutes and converts it to seconds
+function convert(minutes) {
+  var seconds = minutes * 60;
+  return (seconds)
+}
+
+console.log(convert(90));
+console.log("------------------");
