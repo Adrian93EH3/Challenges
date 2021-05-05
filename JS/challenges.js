@@ -181,7 +181,7 @@ console.log("------------------");
 // Write a function that takes minutes and converts it to seconds
 function convert(minutes) {
   var seconds = minutes * 60;
-  return (seconds)
+  return (seconds);
 }
 
 console.log(convert(90));
