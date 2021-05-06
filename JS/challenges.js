@@ -197,3 +197,17 @@ function convert2(seconds) {
 console.log(convert(120));
 console.log("------------------");
 
+// ARRAY OF MULTIPLES //
+// Create a function that takes two numbers as arguments (num, length) and returns an array of multiples of num until the array length reaches length
+function arrayOfMultiples(num, length) {
+  var emptyArr = [];
+
+  for (var i = 1; i <= length; i++) {
+    // Push the results into the empty array I created
+     emptyArr.push(num * i);
+  }
+  return emptyArr;
+}
+
+console.log(arrayOfMultiples(8,8))
+console.log("------------------");
