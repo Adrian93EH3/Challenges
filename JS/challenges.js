@@ -186,3 +186,14 @@ function convert(minutes) {
 
 console.log(convert(90));
 console.log("------------------");
+
+// CONVERT SECONDS TO MINUTES //
+// Write a function that takes seconds and converts it to minutes
+function convert2(seconds) {
+  var minutes = seconds / 60;
+  return (minutes);
+}
+
+console.log(convert(120));
+console.log("------------------");
+
