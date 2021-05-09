@@ -211,3 +211,6 @@ function arrayOfMultiples(num, length) {
 
 console.log(arrayOfMultiples(8,8))
 console.log("------------------");
+
+// RETURN THE OBJECTS KEYS AND VALUES //
+// Create a function that takes an object and returns the keys and values as separate arrays. Return the keys sorted alphabetically, and their corresponding values in the same order.
