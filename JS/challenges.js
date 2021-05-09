@@ -203,7 +203,7 @@ function arrayOfMultiples(num, length) {
   var emptyArr = [];
 
   for (var i = 1; i <= length; i++) {
-    // Push the results into the empty array I created
+    // Push the results of num multplied by i, into the empty array I created
      emptyArr.push(num * i);
   }
   return emptyArr;
@@ -214,3 +214,19 @@ console.log("------------------");
 
 // RETURN THE OBJECTS KEYS AND VALUES //
 // Create a function that takes an object and returns the keys and values as separate arrays. Return the keys sorted alphabetically, and their corresponding values in the same order.
+function keysAndValues(obj) {
+  // Creating a variable containing an array with empty arrays in the 0 and 1 index value
+  var arrWithEmptyArr = [[], []];
+
+  for (var i in obj) {
+    // Loop through the properties of the object using the param of obj while attacking the index 0 of arrWithEmptyArr and pushing the value of i into it
+    arrWithEmptyArr[0].push(i);
+    // Same as above, but now we're pushing the param of obj at the index of i into the index 1 of arrWithEmptyArr
+    arrWithEmptyArr[1].push(obj[i]);
+  }
+  return arrWithEmptyArr;
+}
+
+console.log(keysAndValues({ key1: true, key2: false, key3: undefined }));
+console.log(keysAndValues({ a: "Apple", b: "Microsoft", c: "Google" }));
+console.log("------------------");
