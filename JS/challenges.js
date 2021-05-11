@@ -256,7 +256,10 @@ function intWithinBounds(n, lower, upper) {
 	if(n === upper){
 		return false;
 	}
+  // i is set equal to the 'lower' param and incremented upon thru the loop
 	for(let i = lower; i <= upper; i++){
+    // First test, the 1 eventually is incremented to 3, so it does equal 'n' so it returns true
+    // Second test, 3 can never equal 4.5 since it's being incremented by 1 each time so it returns false
 		if(i === n){
 			return true;
 		}
