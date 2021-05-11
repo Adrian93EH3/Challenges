@@ -238,3 +238,14 @@ function calcAge(age) {
   return age * 365;
 }
 console.log(calcAge(23));
+console.log("------------------");
+
+// AREA OF A TRIANGLE //
+// Write a function that takes the base and height of a triangle and return its area.
+function triArea(base, height) {
+  // A triangle's area is calculated via multiplying the base and height then diving that by 2
+  return base * height / 2;
+}
+
+console.log(triArea(9, 5));
+console.log("------------------");
