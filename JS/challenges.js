@@ -230,3 +230,11 @@ function keysAndValues(obj) {
 console.log(keysAndValues({ key1: true, key2: false, key3: undefined }));
 console.log(keysAndValues({ a: "Apple", b: "Microsoft", c: "Google" }));
 console.log("------------------");
+
+// CONVERT AGE TO DAYS //
+// Create a function that takes the age in years and returns the age in days.
+function calcAge(age) {
+  // There's 365 days in a year, so multiply the age given by 365
+  return age * 365;
+}
+console.log(calcAge(23));
