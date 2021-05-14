@@ -270,3 +270,6 @@ function intWithinBounds(n, lower, upper) {
 console.log(intWithinBounds(3, 1, 9));
 console.log(intWithinBounds(4.5, 3, 8));
 console.log("------------------");
+
+// FIND THE SMALLEST AND BIGGEST NUMBERS //
+// Create a function that takes an array of numbers and return both the minimum and maximum number from the array and in ascending order
