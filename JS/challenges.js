@@ -273,3 +273,21 @@ console.log("------------------");
 
 // FIND THE SMALLEST AND BIGGEST NUMBERS //
 // Create a function that takes an array of numbers and return both the minimum and maximum number from the array and in ascending order
+function minMax(arr) {
+// Creating an empty array to later store the results into
+  var result = [];
+// Setting two variables of 'min' and 'max' set to the index value 0 of the param array
+  var min = arr[0];
+  var max = arr[0];
+// A loop to continuosly step on the previous value of the variables above by consistently checking to see if the logic is true, if so, change the value to the new found value 'arr[i]'
+  for (var i in arr) {
+    if (arr[i] < min) min = arr[i];
+    if (arr[i] > max) max = arr[i];
+  }
+  // Push the results of the loop into the empty array and return the results
+  result.push(min);
+  result.push(max);
+  return result;
+}
+
+console.log(minMax([4, 3, 5, 1, 2]));
